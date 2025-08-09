@@ -1,0 +1,36 @@
+    h2 {
+        
+      color: #a51c33;
+      text-align: center;
+      font-family: 'Lexend';
+      font-size: xx-large;
+      
+    } 
+.container {
+    margin-top: 200px;
+      display: grid;
+      grid-template-rows: 200px 200px;
+      grid-template-columns: 100px;
+      gap: 200px;
+      grid-template-areas:
+      "box1 box1 box2 box2";
+
+    }
+
+.box {
+    
+      background-color: #a51c33;
+      color: white;
+      font-family: 'Lexend';
+      text-align: center;
+      border-radius: 10px;
+      font-size: 60px;
+      padding: 60px;
+}
+
+
+
+body {
+      background-color: #fff8db;
+      padding: 100px
+    }
