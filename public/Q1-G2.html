@@ -9,9 +9,12 @@
 
 
 <p>Here's a list of my friends!</p>
-<input id="in1"> <br>
-<input id="in2"> <br>
+<label> Friend 1:</label>
+<input id="in1" type="text" placeholder="Friend 1"> <br> <!-- placeholder is the text that appears inside the input before u add stuff -->
+<label> Friend 2:</label>
+<input id="in2" type="text" placeholder="Friend 2"> <br>
 <button onclick="addFriends()">Add Friends</button>
+
 
 <div id="out1">
 
@@ -27,5 +30,5 @@ out1.innerHTML += "<p>" + in1.value + "</p>"; // so like the plus makes it flow 
 out1.innerHTML += "<p>" + in2.value + "</p>";
     }
 
-
 </script>
+

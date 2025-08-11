@@ -47,3 +47,11 @@ button {
     font-family: 'lexend';
     border-radius: 10px;
 }
+
+label {
+    color: #870916;
+    font-family: 'lexend';
+    font-size: 20px;
+    display: block;
+    margin: 10px 0;
+}
