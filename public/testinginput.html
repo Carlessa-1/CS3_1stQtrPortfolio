@@ -1,0 +1,36 @@
+<html>
+<head>
+    <title> Input Testing</title>
+    <link rel="stylesheet" href="style4.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<h1> Find out how many years you have to wait till you get your drivers license!</h1>
+
+<div>
+
+How old are you?
+<br>
+ <input text="number"  id = "inp_age" placeholder="Enter your age">
+ <button id="btn_submit">Submit</button>
+
+<script>
+
+const btn = document.getElementById("btn_submit");
+const age = document.getElementById("inp_age");
+
+btn.addEventListener('click', btn_click);
+function btn_click() {
+alert("Submitted")
+document.write("You are " + (16-age.value) + " years away from getting your drivers license.")
+
+}
+</script>
+
+</div>
+</body>
+
+
+</html>
