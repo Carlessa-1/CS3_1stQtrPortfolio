@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="output.css">
+  <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap" rel="stylesheet">
+    <title>Output Playground!</title>
+</head>
+<body>
+    <label>Enter your Name:</label>
+    <input type="text" id="nameInput" placeholder="Enter your name"> <br>
+    
+     <br>
+
+    <label>Enter your Age:</label>
+    <input type="number" id="ageInput" placeholder="Enter your age">  <br>
+
+     <br>
+
+    <label>Enter your favorite food:</label>
+    <input type="text" id="foodInput" placeholder="Enter your favorite food">  <br>
+
+     <br>
+
+    <button onclick="output()">Submit</button>
+
+    <p id="out1"></p>
+</body>
+
+<script>
+    function output() {
+    const nameInput = document.getElementById("nameInput");
+    const ageInput = document.getElementById("ageInput"); 
+    const foodInput = document.getElementById("foodInput");
+    const out1 = document.getElementById("out1");
+
+    out1.textContent = `Your name is ${nameInput.value}, you are ${ageInput.value} years old, and your favorite food is ${foodInput.value}.`;
+
+}
+</script>
+
+</html>

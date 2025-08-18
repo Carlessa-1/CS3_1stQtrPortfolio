@@ -51,3 +51,11 @@
       align-items: center;
       margin-left: 450px;
     }
+
+    p {
+      color: #a51c33;
+      font-family: 'Lexend';
+      text-align: center;
+      font-size: 20px;
+      margin-top: 20px;
+    }

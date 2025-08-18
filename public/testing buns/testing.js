@@ -1,27 +1,31 @@
-const age_input = document.getElementById("age_input");
-const age_check = document.getElementById("age_check");
-const age_result = document.getElementById("age_result");
+const ageInput = document.getElementById("ageInput");
+const ageCheck = document.getElementById("ageCheck");
+const ageResult = document.getElementById("ageResult");
 let age;
 
-age_check.onclick = function() {
+ageCheck.onclick = function() {
 
-age = age_input.value;
+age = ageInput.value;
 age = Number(age)
 
-if (age > 100){
-    resultElement.textcontent = `You're literally ancient dawg.`;
+if (age > 100) {
+    ageResult.textContent = `You're literally ancient dawg.`;
 }
 
 else if (age >= 18) {
-    resultElement.textcontent = `Yeah, you're of Unc status.`;
+    ageResult.textContent = `Yeah, you're of Unc status.`;
 }
 
 else if (age == 18) {
-    resultElement.textcontent = `It sucks to be an Unc man.`;
+    ageResult.textContent = `It sucks to be an Unc man.`;
 }
 
-else (age < 18) {
-    resultElement.textcontent = `You're a lil baby bro.`;
-}
+
+else {
+    ageResult.textContent = `You're a lil baby bro.`;
+
+}   
+
+// what if i want to compare the age value to a string?? :(
 
 }   
