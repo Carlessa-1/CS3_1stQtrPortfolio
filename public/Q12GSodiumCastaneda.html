@@ -1,0 +1,29 @@
+<link rel="stylesheet" href="styleg3.css">
+<link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap" rel="stylesheet">
+
+<h1> Carly Castaneda - 9-Sodium - Aug 11, 2025 </h1>
+
+<h2> Second Graded Exercise - First Quarter</h2>
+
+<input id="mp" type="number" placeholder="meal price"> <br>
+<input id="tip" type="number" placeholder="tip"> <br>
+<input id="sc" type="number" placeholder="service charge (%)"> <br>
+
+<button onclick="calculateTotal()">Calculate Total</button>
+
+<p id="out1"></p>
+
+<script>
+
+function calculateTotal() { 
+    const mp = Number(document.getElementById("mp").value); 
+    const tip = Number(document.getElementById("tip").value); 
+    const sc = Number(document.getElementById("sc").value);
+
+    const total =  mp + tip + (sc / 100 * mp) //okay so like instead of doing the math in the output, we can just turn the math into a printable variable?? (my terminology is so buns)
+    const out1 = document.getElementById("out1");
+
+    out1.textContent = `Your total is ${total}.`;
+}
+</script>
