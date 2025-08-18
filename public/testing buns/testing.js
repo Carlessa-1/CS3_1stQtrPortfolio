@@ -20,4 +20,8 @@ else if (age == 18) {
     resultElement.textcontent = `It sucks to be an Unc man.`;
 }
 
+else (age < 18) {
+    resultElement.textcontent = `You're a lil baby bro.`;
+}
+
 }   
