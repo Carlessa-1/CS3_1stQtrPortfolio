@@ -21,7 +21,7 @@ function calculateTotal() {
     const tip = Number(document.getElementById("tip").value); 
     const sc = Number(document.getElementById("sc").value);
 
-    const total =  mp + tip + (sc / 100 * mp) //okay so like instead of doing the math in the output, we can just turn the math into a printable variable?? (my terminology is so buns)
+    const total =  ((mp + tip + (sc / 100 * mp)).toFixed(2)) //okay so like instead of doing the math in the output, we can just turn the math into a printable variable?? (my terminology is so buns)
     const out1 = document.getElementById("out1");
 
     out1.textContent = `Your total is ${total}.`;
