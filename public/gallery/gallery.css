@@ -1,0 +1,43 @@
+    h2 {
+        
+      color: #a51c33;
+      text-align: center;
+      font-family: 'Lexend';
+      font-size: xx-large;
+      
+    } 
+
+img {
+      width: 300px;
+      height: 300px;
+      border-radius: 20%;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      float: left;
+      margin-right: 50px;
+    }
+
+
+h1 {
+    size: 205px;
+      font-family: 'Lexend';
+      color: #a51c33;
+    }
+
+    p {
+      font-family: 'fredoka';
+      color: #a51c33;
+      font-size: 30px;
+      line-height: 1.5;
+    }
+
+hr {
+      border: 0;
+      height: 1px;
+      background: #a51c33;
+      margin: 20px 0;
+    }
+
+body {
+      background-color: #fff8db;
+      padding: 100px
+    }

@@ -1,25 +1,55 @@
 <!DOCTYPE html>
 <html>
+
+    <link rel="stylesheet" href="style4.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap" rel="stylesheet">
+
 <body>
 
    <h2> Q1 3rd Graded Exercise submitted by Carlessa Castaneda of 9-Sodium</h2>
    
    <div>
+    <h1> Guess the Number</h1>
+    <p> It's from 1-100 btw :P</p>
+    <label> Enter your guess!</label>
+    <input text="number" id = "inp_number" placeholder="(1-100)"> <br>
 
-    <input text="number"  id = "inp_number" placeholder="Enter your guess! (1-100)"> <br>
-    <button id="btn_submit">Submit</button>
+    <br>
 
+    <button id="btn_submit" onclick="checkIt()">Check</button>
+    <p id="result"></p>
+
+    <button onclick="reset()">Reset ?</button>
    </div>
 
     <script>
 
-       var dNumber = Math.floor(Math.random() * 100) + 1; // generates a number from 1  to 100 when the page loads
+        var dNumber = Math.floor(Math.random() * 100) + 1; // generates a number from 1  to 100 when the page loads
 
-       function checkIt() {
-              
-            
-         
+        function reset () {
+        location.reload()
         }
+
+        function checkIt() {
+        var Num = Number(document.getElementById("inp_number").value);
+        
+
+        if (Num == dNumber) {
+            result.textContent = `You got it correct! Good job! :)`
+        }
+
+        else if (Num > dNumber) {
+            result.textContent = `Your guess is too HIGH! Try again.`
+   
+        }
+
+        else if (Num < dNumber) {
+            result.textContent = `Your guess is too LOW! Try again.`
+            
+
+        }
+      }
     </script>
 
 </body>
