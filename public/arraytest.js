@@ -11,3 +11,11 @@ for (let i = 0; i < 4; i++) {
 for(var grade of grades) {
     console.log(grade)
 }
+
+
+// in response to the grades
+grades.forEach(print_grade) 
+
+function print_grade(grade) {
+    console.log(grade)
+}
