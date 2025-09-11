@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Division Test</title>
+    <h1>Is your number even or odd?</h1>
+</head>
+<body>
+    <label> Enter a Number:</label>
+    <input  type="number" id="numInput" placeholder="Enter a number">
+    <p id="out"></p>
+    
+    <button onclick="output()">submit</buttom>
+</body>
+
+<script>
+    const numInput = document.getElementById("numInput");
+    
+    function output() {
+        const numInput = Number(document.getElementById("numInput").value); {
+
+        if (numInput % 2 == 0)
+            out.textContent = `${numInput} is even.`;
+        else 
+            out.textContent = `${numInput} is odd.`;
+        }
+    }
+</script>
+
+</html>

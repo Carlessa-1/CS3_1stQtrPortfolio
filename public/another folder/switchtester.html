@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1> Type in Your grade</h1>
+    <input type="number" id="gradeInput" placeholder="Enter your grade">
+    <button onclick="out()">Submit</button>
+    <p id="out1"></p>
+</body>
+
+<script>
+
+    function out(){
+    const grade = Number(document.getElementById("gradeInput").value);
+    let lettergrade;
+
+    switch (true) {
+        case grade >= 90:
+            lettergrade = "A";
+            out1.textContent = `You got a grade of ${lettergrade}`;
+            break;
+
+        case grade >= 80:
+            lettergrade = "B"
+            out1.textContent = `You got a grade of ${lettergrade}`;
+            break;
+        
+        case grade >= 70:
+            lettergrade = "C"
+       out1.textContent = `You got a grade of ${lettergrade}`
+            break;
+        
+
+        
+            default:
+                lettergrade = "D"
+        out1.textContent = `You got a grade of ${lettergrade}`
+            break;
+    }
+    }
+</script>
+
+</html>
