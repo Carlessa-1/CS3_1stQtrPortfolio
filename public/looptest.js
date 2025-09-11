@@ -43,3 +43,14 @@ for( let i = 2; i <= 100; i = i + 2) {
   for(let i = 1; i <= 10; i += 2) {
     console.log("*".repeat(i))
   }
+
+
+  for(let i = 4; i <= 4; i-- ) {
+    for(let s = 1; s <= 5; s++) {
+              console.log("*".repeat(s))
+    }
+    
+    console.log("/".repeat(i))
+  }
+  
+  // sasabog na ata utak q!! rofl🤣
