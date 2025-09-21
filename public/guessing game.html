@@ -1,0 +1,39 @@
+<title>Carly's Portfolio</title>
+<link rel="stylesheet" href="guessing.css">
+<link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap" rel="stylesheet">
+
+<h1>Guess My Word!</h1>
+<p id="wordDisplay"></p>
+<input type="text" id="guessInput" maxlength="1">
+<button onclick="makeGuess()">Guess</button>
+<p id="message"></p>
+<p id="guessedinput"></p>
+
+<p id="rg"></p>
+
+<script>
+  let secretWord = ["c", "h", "a", "t", "t", "y", "c", "a", "r", "l", "y",];
+  let guessedWord = ["_", "_", "_", "_", "_", "_", "_", "_", "_", "_", "_",];
+
+  document.getElementById("wordDisplay").textContent = guessedWord.join(" ");
+
+  rg = 3
+  function makeGuess() {
+    rg = rg - 1
+    let guess = document.getElementById("guessInput").value.toLowerCase();
+    let correct = false;
+
+    for (let i = 0; i < secretWord.length; i++) {
+      if (secretWord[i] === guess) {
+        guessedWord[i] = guess;
+        correct = true;
+      }
+    }
+
+    document.getElementById("wordDisplay").textContent = guessedWord.join(" ");
+    document.getElementById("message").textContent = correct ? "✅ Correct!" : "❌ Try again.";
+    document.getElementById("guessInput").value = "";
+    document.getElementById("rg").textContent = "You have " + rg + " guesses left!"
+  }
+</script>
