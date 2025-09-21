@@ -1,6 +1,5 @@
 # Q1 End of Lessons Reflections
 
-## ====================================
 
 # Topics I understood
 ## 1. Logic Operators
@@ -35,13 +34,8 @@ I didn't understand them at first until Sir Roy mentioned truth tables, then my 
 ## 5. Functions
 - I get how to initialize them, but sometimes I get really confused on how to practically apply them. Despite that, functions are more intuitive to me compared to loops, they're my favorite thing to play around with in VScode.
 
-## ====================================
-
 # What will I do to understand them?
 - Since I'm a new transferee I have to work double time to catch up to my peers, to understand these topics better I'll make sure to study CS topics at home and read the given lessons/slides in Khub. Working on my own projects with JS, HTML, and CSS will definitely help out a lot too.
-
-
-## ====================================
 
 # Effective exercises done in class
 ## Effective:
