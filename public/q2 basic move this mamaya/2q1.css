@@ -21,3 +21,6 @@ table, td {
     adjust-items: center;
     font-size: 50px;
   }
+  img {
+    border-radius: 2px;
+  }
