@@ -1,0 +1,23 @@
+table, td {
+    border: 1px solid;
+    padding: 10px;
+    border-radius: 5px;
+    border-color: #3b61df;
+    font-family: lexend;
+    color: #284bbb;
+  }
+
+
+  body {
+    background-color: #fffaeb;
+    padding: 100px
+    border-radius: 50px;
+  }
+
+  h1 {
+    font-family: 'Lexend';
+    color: #3b61df;
+    justify-content: center;
+    adjust-items: center;
+    font-size: 50px;
+  }
