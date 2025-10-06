@@ -18,8 +18,6 @@ table, td {
   h1 {
     font-family: 'Lexend';
     color: #3b61df;
-    justify-content: center;
-    adjust-items: center;
     font-size: 50px;
   }
   img {
@@ -36,4 +34,26 @@ table, td {
   iframe {
     border-radius: 20px;
     padding: 10px;
+  }
+
+  #tuff {
+    text-align: center;
+  }
+
+  a {
+    text-decoration: none;
+    color: #2748b3;
+  }
+  
+  a:hover {
+    color: #132b7a; /* Tomato color on hover */
+  }
+
+  li {
+    color: #3b61df;
+    font-family: 'Fredoka';
+    text-align: center;
+    list-style: none;
+    font-size: 30px;
+    
   }
