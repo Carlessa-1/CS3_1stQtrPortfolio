@@ -5,6 +5,7 @@ table, td {
     border-color: #3b61df;
     font-family: lexend;
     color: #284bbb;
+
   }
 
 
@@ -23,4 +24,12 @@ table, td {
   }
   img {
     border-radius: 2px;
+    flex-wrap: wrap;
+  }
+
+  P {
+    font-family: 'Lexend';
+    color: #3b61df;
+    font-size: 20px;
+    line-height: 1.5;
   }
