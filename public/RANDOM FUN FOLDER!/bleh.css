@@ -90,9 +90,10 @@ td {
     transition: background 0.3s ease, color 0.3s ease;
 }
 
-td:hover {
+td:hover        {
     background-color: #E8667E;
     color: #fff;
+    
 }
 
 #a {
@@ -125,6 +126,7 @@ li {
       list-style: none;
       font-size: 30px;
       text-decoration: none;
+      
 }
       
 
@@ -133,10 +135,10 @@ p {
     font-size: 35px;
 }
 
-#links {
+#links a {
     display: flex;
-    flex-direction: column;
     margin-top: 10px;
     list-style: none;
     text-decoration: none;
+    color: #333;
 }
