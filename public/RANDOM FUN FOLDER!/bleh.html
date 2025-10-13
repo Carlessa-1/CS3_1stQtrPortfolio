@@ -82,7 +82,16 @@
         </div>
 
     </main>
-    <footer style="font-size: 40px">© Carlessa Castaneda 2025</footer>
+    <footer> 
+        <p class="copyright">
+  &copy; <span id="year"></span> Carlessa Castaneda. All rights reserved.
+</p>
+
+<script>
+  // Auto-set current year
+  document.getElementById('year').textContent = new Date().getFullYear();
+</script>
+    </footer>
     
 </body>
 </html>
