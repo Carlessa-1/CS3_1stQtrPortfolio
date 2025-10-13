@@ -16,7 +16,7 @@ body {
         "footer footer";
     font-family: 'Lexend', sans-serif;
     background-color: #F9F1DA;
-    color: #333;
+    color: #302f2f;
 }
 
 
@@ -85,7 +85,7 @@ td {
     padding: 1rem;
     text-align: center;
     background-color: #ffffff;
-    color: #333;
+    color: #302f2f;
     border: 1px solid #c5c5c5;
     transition: background 0.3s ease, color 0.3s ease;
 }
@@ -139,5 +139,10 @@ p {
     margin-top: 10px;
     list-style: none;
     text-decoration: none;
-    color: #333;
+    color: #302f2f;
+}
+
+::selection {
+    background: #E8667E;
+    color: #fff;
 }
