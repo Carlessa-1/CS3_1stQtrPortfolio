@@ -96,6 +96,12 @@ td:hover        {
     
 }
 
+td:hover a    { 
+    color: #fff;
+
+    
+}
+
 #a {
     color: black;
     text-align: center;
